@@ -1,7 +1,14 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class menu {
-    public static void main(String[] args) {
+
+    public int currentGameID;
+
+       public static void main(String[] args) {
+
+   
+
 
         // Menyval för spelaren
         System.out.println("Hej och välkommen till brädspelssamlingen TicTacToe!");
@@ -41,13 +48,15 @@ public class menu {
 
                 for (int i = 0; i != chooseGame; i++) {
                     System.out.println(
-                            "Spel med siffan " + chooseGame + " finns tyvärr inte i listan6. Välj mellan 1,2 eller 3");
+                            "Spel med siffan " + chooseGame + " finns tyvärr inte i listan. Välj mellan 1,2 eller 3");
                 }
 
                 break;
         }
 
         scanner.close();
+
+
 
     }
 }
