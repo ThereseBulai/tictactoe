@@ -8,6 +8,13 @@ public class menu {
 
     public static void main(String[] args) {
 
+        
+
+
+        // TODO skapa en spelarlista
+        //TODO hämta metod om att fråga om namn - addPlayer
+        // TODO returnera en arraylist Players
+
         // Menyval för spelaren
         System.out.println("Hej och välkommen till brädspelssamlingen TicTacToe!");
         System.out.println();
@@ -24,7 +31,7 @@ public class menu {
 
         while (!choseGameCorrecly) {
 
-            System.out.println("Skriv in 1,2 eller 3 beroende på vilket spel du vill spela");
+            System.out.println("Skriv in 1, 2, 3 eller 4 beroende på vilket spel du vill spela");
             try {
 
                 chooseGame = scanner.nextInt();
